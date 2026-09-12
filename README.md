@@ -20,3 +20,7 @@ Otwórz `index.html` w przeglądarce albo skorzystaj z opublikowanej wersji GitH
 - Postęp nauki liczony jest w obrębie jednej sesji przeglądarki (nie jest zapisywany).
 - Każdy moduł ma arkusz stylów do druku.
 - Źródła: podstawa programowa (ZPE) oraz informatory maturalne CKE.
+
+## Ilustracje
+
+Ryciny w `assets/` pochodzą z projektu BioLogos (payload `app-data`, pole `images`), przeskalowane do 1400 px i zapisane jako WebP. Projekcja Hawortha α/β-D-glukopiranozy w module o związkach chemicznych jest rysowana inline w SVG.
