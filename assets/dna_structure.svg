@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900" role="img" aria-label="Fragment dwuniciowego DNA z oznaczeniami A–E">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#f1f7f6"/></linearGradient><filter id="sh"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-opacity="0.14"/></filter><style>
+.t{font:800 38px Inter,Segoe UI,Arial,sans-serif;fill:#173b40}.s{font:19px Inter,Segoe UI,Arial,sans-serif;fill:#536965}.panel{fill:#fff;stroke:#bfd1ce;stroke-width:3}.ph{fill:#8ec5d5;stroke:#315f70;stroke-width:3}.su{fill:#f2d49a;stroke:#896b2f;stroke-width:3}.base{stroke-width:18;stroke-linecap:round}.hb{stroke:#7a7690;stroke-width:3;stroke-dasharray:7 7}.ptr{stroke:#294b55;stroke-width:3;fill:none;stroke-linecap:round}.badge{fill:#0f5147;stroke:#fff;stroke-width:3}.bt{font:800 21px Inter,Segoe UI,Arial,sans-serif;fill:#fff;text-anchor:middle;dominant-baseline:middle}
+</style></defs>
+<rect width="1280" height="900" fill="url(#bg)"/><text x="48" y="58" class="t">Fragment dwuniciowego DNA</text><text x="48" y="92" class="s">Oznaczenia wskazują różne elementy budowy. Linie przerywane łączą komplementarne zasady.</text><rect x="48" y="125" width="1184" height="720" rx="24" class="panel" filter="url(#sh)"/>
+<path d="M330 185 C290 300 290 510 330 640" fill="none" stroke="#4b96ad" stroke-width="9"/><path d="M790 185 C830 300 830 510 790 640" fill="none" stroke="#4b96ad" stroke-width="9"/>
+<g>
+      <circle cx="330" cy="210" r="17" class="ph"/><polygon points="365,190 390,202 384,230 356,230 350,202" class="su"/>
+      <circle cx="790" cy="210" r="17" class="ph"/><polygon points="755,190 780,202 774,230 746,230 740,202" class="su"/>
+      <line x1="390" y1="210" x2="430" y2="210" stroke="#d96b5f" class="base"/><line x1="595" y1="210" x2="740" y2="210" stroke="#24786f" class="base"/>
+      <line x1="438" y1="203" x2="587" y2="203" class="hb"/><line x1="438" y1="217" x2="587" y2="217" class="hb"/>
+    </g><g>
+      <circle cx="330" cy="290" r="17" class="ph"/><polygon points="365,270 390,282 384,310 356,310 350,282" class="su"/>
+      <circle cx="790" cy="290" r="17" class="ph"/><polygon points="755,270 780,282 774,310 746,310 740,282" class="su"/>
+      <line x1="390" y1="290" x2="470" y2="290" stroke="#e2a93b" class="base"/><line x1="555" y1="290" x2="740" y2="290" stroke="#526ca8" class="base"/>
+      <line x1="478" y1="283" x2="547" y2="283" class="hb"/><line x1="478" y1="297" x2="547" y2="297" class="hb"/>
+    </g><g>
+      <circle cx="330" cy="370" r="17" class="ph"/><polygon points="365,350 390,362 384,390 356,390 350,362" class="su"/>
+      <circle cx="790" cy="370" r="17" class="ph"/><polygon points="755,350 780,362 774,390 746,390 740,362" class="su"/>
+      <line x1="390" y1="370" x2="430" y2="370" stroke="#d96b5f" class="base"/><line x1="595" y1="370" x2="740" y2="370" stroke="#24786f" class="base"/>
+      <line x1="438" y1="363" x2="587" y2="363" class="hb"/><line x1="438" y1="377" x2="587" y2="377" class="hb"/>
+    </g><g>
+      <circle cx="330" cy="450" r="17" class="ph"/><polygon points="365,430 390,442 384,470 356,470 350,442" class="su"/>
+      <circle cx="790" cy="450" r="17" class="ph"/><polygon points="755,430 780,442 774,470 746,470 740,442" class="su"/>
+      <line x1="390" y1="450" x2="470" y2="450" stroke="#e2a93b" class="base"/><line x1="555" y1="450" x2="740" y2="450" stroke="#526ca8" class="base"/>
+      <line x1="478" y1="443" x2="547" y2="443" class="hb"/><line x1="478" y1="457" x2="547" y2="457" class="hb"/>
+    </g><g>
+      <circle cx="330" cy="530" r="17" class="ph"/><polygon points="365,510 390,522 384,550 356,550 350,522" class="su"/>
+      <circle cx="790" cy="530" r="17" class="ph"/><polygon points="755,510 780,522 774,550 746,550 740,522" class="su"/>
+      <line x1="390" y1="530" x2="430" y2="530" stroke="#d96b5f" class="base"/><line x1="595" y1="530" x2="740" y2="530" stroke="#24786f" class="base"/>
+      <line x1="438" y1="523" x2="587" y2="523" class="hb"/><line x1="438" y1="537" x2="587" y2="537" class="hb"/>
+    </g><g>
+      <circle cx="330" cy="610" r="17" class="ph"/><polygon points="365,590 390,602 384,630 356,630 350,602" class="su"/>
+      <circle cx="790" cy="610" r="17" class="ph"/><polygon points="755,590 780,602 774,630 746,630 740,602" class="su"/>
+      <line x1="390" y1="610" x2="470" y2="610" stroke="#e2a93b" class="base"/><line x1="555" y1="610" x2="740" y2="610" stroke="#526ca8" class="base"/>
+      <line x1="478" y1="603" x2="547" y2="603" class="hb"/><line x1="478" y1="617" x2="547" y2="617" class="hb"/>
+    </g>
+<!-- bracket around one nucleotide --> <path d="M300 268 h-26 v86 h26" class="ptr"/>
+<!-- A phosphate --> <path d="M330 210 L150 184" class="ptr"/><circle cx="130" cy="181" r="24" class="badge"/><text x="130" y="182" class="bt">A</text>
+<!-- B deoxyribose --> <path d="M365 290 L165 310" class="ptr"/><circle cx="140" cy="313" r="24" class="badge"/><text x="140" y="314" class="bt">B</text>
+<!-- C nitrogen base --> <path d="M430 370 L170 470" class="ptr"/><circle cx="145" cy="480" r="24" class="badge"/><text x="145" y="481" class="bt">C</text>
+<!-- D one nucleotide bracket --> <path d="M274 312 L150 650" class="ptr"/><circle cx="142" cy="680" r="24" class="badge"/><text x="142" y="681" class="bt">D</text>
+<!-- E hydrogen bonds, explicit pointer --> <path d="M510 530 L980 430" class="ptr"/><circle cx="1008" cy="424" r="24" class="badge"/><text x="1008" y="425" class="bt">E</text>
+<text x="895" y="705" class="s">Schemat nie zachowuje skali atomowej.</text></svg>
