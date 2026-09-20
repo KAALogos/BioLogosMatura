@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b4d42">
+<title>BioLogos • wejściówki z biologii</title>
+<style>
+:root{--bg:#f4f8f7;--paper:#fff;--ink:#132522;--muted:#526661;--line:#d7e3df;--p:#126b5b;--p2:#0b4d42;--a:#70419a;--soft:#eaf4f1;--shadow:0 13px 32px rgba(25,61,52,.10);--r:20px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55}
+.wrap{max-width:1180px;margin:auto;padding:0 22px}
+.hero{border-bottom:1px solid var(--line);background:radial-gradient(circle at 86% 20%,rgba(112,65,154,.15),transparent 24rem),radial-gradient(circle at 8% 83%,rgba(18,107,91,.18),transparent 26rem),linear-gradient(145deg,#f9fffd,#f6f1fa)}
+.heroin{padding:62px 0 44px}
+.eyebrow{display:inline-flex;padding:.38rem .74rem;border-radius:999px;background:#e0f1ec;color:var(--p2);font-weight:850;font-size:.9rem}
+h1{font-size:clamp(2.4rem,6vw,4.8rem);line-height:1.02;letter-spacing:-.05em;margin:.9rem 0 1rem;max-width:900px}
+.lead{font-size:1.14rem;color:var(--muted);max-width:820px}
+main{padding:34px 0 70px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.card{display:block;position:relative;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:24px;box-shadow:var(--shadow);transition:.18s ease;min-height:270px}
+.card:hover{transform:translateY(-3px);border-color:#9fc6ba}
+.num{display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:var(--p);color:#fff;font-weight:950}
+.meta{position:absolute;right:22px;top:24px;color:#542675;background:#eee7f5;padding:6px 9px;border-radius:999px;font-size:.82rem;font-weight:900}
+.card h2{font-size:1.55rem;margin:24px 0 10px;letter-spacing:-.025em}
+.card p{color:var(--muted);margin:0 0 30px}
+.go{position:absolute;left:24px;bottom:22px;color:var(--p);font-weight:900}
+.todo{margin-top:28px;background:#fff;border:1px solid var(--line);border-radius:18px;padding:20px}
+.todo h2{margin-top:0}
+.todo p{color:var(--muted)}
+@media(max-width:760px){.heroin{padding-top:38px}.grid{grid-template-columns:1fr}.card{min-height:250px}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap heroin">
+  <span class="eyebrow">BioLogos • quizy wejściowe</span>
+  <h1>Interaktywne laboratoria przed lekcją</h1>
+  <p class="lead">Seria emisyjna korzysta bezpośrednio z aktualnych modułów BioLogosMatura. Dzięki temu zachowuje późniejsze poprawki graficzne i nie cofa się do starszych załączników z poczty.</p>
+</div></header>
+<main><div class="wrap">
+  <div class="grid">
+    <a class="card" href="../zwiazki-chemiczne.html"><span class="num">01</span><span class="meta">8 laboratoriów</span><h2>Związki chemiczne życia</h2><p>Pierwiastki, węglowodany, białka, lipidy i kwasy nukleinowe — budowa, doświadczenia i funkcje.</p><span class="go">Otwórz moduł →</span></a>
+    <a class="card" href="../woda.html"><span class="num">02</span><span class="meta">7 laboratoriów</span><h2>Woda: od dipola do biosfery</h2><p>Polarność, wiązania wodorowe, rozpuszczanie, kapilarność, termika i znaczenie biologiczne.</p><span class="go">Otwórz moduł →</span></a>
+    <a class="card" href="../komorka.html"><span class="num">03</span><span class="meta">moduł rozbudowany</span><h2>Komórka i transport</h2><p>Mikrofotografie, typy komórek, błony, transport, osmoza, organella i cytoszkielet.</p><span class="go">Otwórz moduł →</span></a>
+    <a class="card" href="../bakterie-i-wirusy.html"><span class="num">04</span><span class="meta">8 laboratoriów</span><h2>Bakterie, archeowce i wirusy</h2><p>Budowa prokariota, Gram, metabolizm, transfer genów, wirusy i cykle namnażania.</p><span class="go">Otwórz moduł →</span></a>
+  </div>
+  <section class="todo"><h2>Do domknięcia w tym samym standardzie</h2><p>Tkanki i organy roślinne • Grzyby, porosty i protisty • Podziały komórkowe.</p></section>
+</div></main>
+</body>
+</html>
