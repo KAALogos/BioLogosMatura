@@ -142,7 +142,7 @@ if(rings.checked){id='steroid';fun='Sztywny układ czterech skondensowanych pier
 }else{id='nietypowa konfiguracja';fun='Ustaw 3 ogony (triacyloglicerol), 2 ogony z grupą fosforanową (fosfolipid), 1 ogon (wosk) albo zaznacz cztery pierścienie (steroid).';
  s+=lbl(300,170,'—','#9fb3ad',40)+lbl(300,215,'brak odpowiadającej klasy lipidu','#7d8f99',16)}
 document.getElementById('lipidIdentity').innerHTML=`Powstaje: <strong>${id}</strong>`;
-document.getElementById('lipidFunction').textContent=fun;
+if(sg.checked&&!(ph.checked&&n===2&&!rings.checked))fun+=' (Część cukrowa ma znaczenie tylko w glikolipidzie: 2 ogony + grupa fosforanowa.)';if(ph.checked&&!(n===2)&&!rings.checked)fun+=' (Grupa fosforanowa tworzy fosfolipid tylko przy 2 ogonach.)';document.getElementById('lipidFunction').textContent=fun;
 document.getElementById('lipidModel').innerHTML=s}tails.oninput=db.oninput=ph.onchange=sg.onchange=rings.onchange=lipid;lipid();
 const nl=document.getElementById('nucleicLength'),ss=document.getElementById('secondStrand');document.querySelectorAll('input[name="acid"]').forEach(x=>x.onchange=nucleic);nl.oninput=ss.onchange=nucleic;
 function nucleic(){const n=+nl.value,_a=document.querySelector('input[name="acid"]:checked'),type=_a?_a.value:'DNA',second=ss.checked;document.getElementById('nucLengthOut').textContent=n;
