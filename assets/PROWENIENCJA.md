@@ -112,3 +112,25 @@ Zmiana bajtów któregokolwiek z tych plików wymaga przejścia procedury `relea
 - **Plansza w manifeście:** nr 75 — „Właściwości wody”, zadanie źródłowe `V8-WAT-01`
 - **Klucz w BioLogos:** `assets/v35_21_75_water_properties.webp`
 - **SHA-256:** `18a2253a95c89e71eb450a14b3dee46292861b1383d091d476fffd2bf89d2ef2`
+
+## `v35_resistance.png`
+
+- **Pochodzenie:** GPT Image (generator obrazu AI)
+- **Autor / generator:** GPT Image, wygenerowane w BioLogos
+- **Licencja:** Materiał własny BioLogos do użytku w tym zestawie zadań.
+- **Nota źródłowa:** GPT Image: plansza „Powstawanie i szerzenie oporności na antybiotyk”, wygenerowana na zlecenie autora projektu; finalny wariant bez podpisów ujawniających odpowiedź. BioLogos, 2026.
+- **Modyfikacje:** Opisane w nocie źródłowej (kolumna „source”).
+- **Status proweniencji:** confirmed
+- **Klucz w BioLogos:** `assets/v35_resistance.svg` (payload PNG pod tą samą sumą)
+- **SHA-256:** `329b06b4343e5ae77ed13e6135f1053fe3b16d445a5802c5d53b74b6675da433`
+
+## `v35_20_hiv_infection.png`
+
+- **Pochodzenie:** GPT Image (generator obrazu AI)
+- **Autor / generator:** GPT Image, wygenerowane w BioLogos
+- **Licencja:** Materiał własny BioLogos do użytku w tym zestawie zadań.
+- **Nota źródłowa:** GPT Image: dwupanelowa plansza „HIV — budowa wirionu i etapy zakażenia komórki”, wygenerowana na zlecenie autora projektu; finalny wariant po iteracyjnej kontroli oznaczeń A–E i celowym przestawieniu numeracji scen zakażenia. BioLogos, 2026.
+- **Modyfikacje:** Opisane w nocie źródłowej (kolumna „source”).
+- **Status proweniencji:** confirmed
+- **Klucz w BioLogos:** `assets/v35_20_hiv_infection.webp` (payload PNG pod tą samą sumą)
+- **SHA-256:** `154fb72c79177d1778fe98d7cb18c3200d8be9a6e7fb8814024c9eead51ff57e`
